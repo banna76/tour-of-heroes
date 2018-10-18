@@ -14,7 +14,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
-import { DeviceComponent } from './device/device.component';
+
 
 @NgModule({
   declarations: [
@@ -23,8 +23,7 @@ import { DeviceComponent } from './device/device.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent,
-    DeviceComponent
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
