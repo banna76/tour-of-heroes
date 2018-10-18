@@ -13,7 +13,7 @@ export class SaveStates {
   currentHeroes = this.saveHeroes.asObservable();
 
   constructor() { 
-    console.log(this.heroes);
+   // console.log(this.heroes);
   }
 
   changeHeroes(heroes: Hero[]) {
