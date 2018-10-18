@@ -28,7 +28,6 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit(): void {
     this.getHero();
     this.saveData.currentHeroes.subscribe(hero => this.saveHero = hero)
-    console.log(this.saveHero)
   }
 
   getHero(): void {
